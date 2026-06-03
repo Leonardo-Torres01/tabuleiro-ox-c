@@ -20,5 +20,5 @@ jobs:
     - name: compile programa principal
       run: gcc tabuleiro-ox.c -o tabuleiro-ox
     - name: execute programa principal
-      run: ./tabuleiro-ox
+      run: ./tabuleiro-ox O X O X X X O O X
 
